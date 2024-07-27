@@ -44,13 +44,15 @@ public class Eventus {
             name="e_date",
             nullable = false
     )
-    private LocalDate eventDate;
+    private String eventDate;
+    // private LocalDate eventDate;
 
     @Column(
             name = "e_time",
             nullable = false
     )
-    private LocalTime eventTime;
+    private String eventTime;
+    // private LocalTime eventTime;
 
     @Column(
             name="e_venue"
@@ -60,16 +62,18 @@ public class Eventus {
     @Column(
             name = "entry_fee"
     )
-    private double entryFee;
+    private String entryFee;
+    // private double entryFee;
 
     @Column(
             name = "price_money"
     )
-    private double priceMoney;
+    private String priceMoney;
+    // private double priceMoney;
 
     @Column(
             name = "img_url",
-            length = 10000,
+            length = 100000000,
             nullable = false
     )
     private String base32Url;

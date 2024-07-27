@@ -1,12 +1,8 @@
 package com.example.eventus.Dtos;
 
-import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 
 @Data
@@ -22,15 +18,19 @@ public class EventusResponseDto {
 
     private String clubName;
 
-    private LocalDate eventDate;
+    private String eventDate;
+    // private LocalDate eventDate;
 
-    private LocalTime eventTime;
+    private String eventTime;
+    // private LocalTime eventTime;
 
     private String eventVenue;
 
-    private double entryFee;
+    private String entryFee;
+    // private double entryFee;
 
-    private double priceMoney;
+    private String priceMoney;
+    // private double priceMoney;
 
     private String base32Url;
 
