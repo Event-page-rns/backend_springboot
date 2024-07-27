@@ -22,14 +22,13 @@ public class Eventus {
 
     @Column(
             name="e_title",
-            length = 40,
             nullable = false
     )
     private String title;
 
     @Column(
             name="e_description",
-            length = 1500,
+            length = 20000,
             nullable = false
     )
     private String description;
@@ -73,7 +72,7 @@ public class Eventus {
 
     @Column(
             name = "img_url",
-            length = 100000000,
+            length = 1000000000,
             nullable = false
     )
     private String base32Url;
