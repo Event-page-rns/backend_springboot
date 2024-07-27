@@ -21,11 +21,6 @@ public class EventusController {
         this.eventusService  = eventusService;
     }
 
-    @GetMapping
-    public String dd(){
-        return "ehllo";
-    }
-
     @PostMapping("/events")
     public ResponseEntity<?> addEvent(@RequestBody EventusDto eventusDto){
         return eventusService.addEvent(eventusDto);
