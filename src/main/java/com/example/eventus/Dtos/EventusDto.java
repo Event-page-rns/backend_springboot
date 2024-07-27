@@ -18,15 +18,19 @@ public class EventusDto {
 
     private String clubName;
 
-    private LocalDate eventDate;
+    //private LocalDate eventDate;
+    private String eventDate;
 
-    private LocalTime eventTime;
+    private String eventTime;
+    // private LocalTime eventTime;
 
     private String eventVenue;
 
-    private double entryFee;
+    private String entryFee;
+    // private double entryFee;
 
-    private double priceMoney;
+    private String priceMoney;
+    // private double priceMoney;
 
     private String base32Url;
 
