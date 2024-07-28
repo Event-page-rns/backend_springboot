@@ -25,7 +25,7 @@ public class ChatController {
         chatService.addMessage(chatDto);
     }
 
-    @PostMapping("/getAllMessages")
+    @GetMapping("/getAllMessages")
     public List<ChatDto> getAllMessages(){
         return chatService.getAllMessages();
     }

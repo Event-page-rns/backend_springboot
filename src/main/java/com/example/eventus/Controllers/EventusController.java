@@ -41,7 +41,4 @@ public class EventusController {
         return eventusService.deleteEvent(eventId);
     }
 
-
-
-
 }

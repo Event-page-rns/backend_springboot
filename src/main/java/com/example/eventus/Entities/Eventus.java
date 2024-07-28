@@ -28,7 +28,7 @@ public class Eventus {
 
     @Column(
             name="e_description",
-            length = 20000,
+            length = 10000,
             nullable = false
     )
     private String description;
@@ -43,7 +43,7 @@ public class Eventus {
             name="e_date",
             nullable = false
     )
-    private String eventDate;
+    private LocalDate eventDate;
     // private LocalDate eventDate;
 
     @Column(

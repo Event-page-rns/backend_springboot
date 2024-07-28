@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+
 
 @Data
 @AllArgsConstructor
@@ -18,7 +20,7 @@ public class EventusResponseDto {
 
     private String clubName;
 
-    private String eventDate;
+    private LocalDate eventDate;
     // private LocalDate eventDate;
 
     private String eventTime;

@@ -19,7 +19,7 @@ public class EventusDto {
     private String clubName;
 
     //private LocalDate eventDate;
-    private String eventDate;
+    private LocalDate eventDate;
 
     private String eventTime;
     // private LocalTime eventTime;
